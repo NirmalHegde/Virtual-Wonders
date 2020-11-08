@@ -1,0 +1,163 @@
+/* Master styles */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body { 
+    margin: 0px;
+}
+
+.container {
+    max-width:1100 px; /*max-width for anything on the page*/
+    height: 150vh;
+    margin: auto;
+    background-color: #f0f4f4;
+}
+
+
+.title-block{
+    padding: 20px;
+    background-color: white;
+}
+
+.title-block h1{
+    text-align: center;
+    color: black;
+    font-size: 6vh;
+
+}
+
+.nav a{
+    color: rgb(59, 59, 59);
+    text-align: center;
+    font-size: 2.5vh;
+    text-decoration: none;
+
+}
+
+.nav{
+    text-align: center;
+    padding: 3vh;
+}
+
+.header{
+    padding: 5vh;
+}
+
+.header p{
+    color: rgb(59, 59, 59); 
+    text-align: center;
+    margin-bottom: 2vh;
+    font-size: 3vh;
+    font-family: sans-serif;
+
+}
+
+.header h2{ 
+    color: black;
+    font-size: 10vh;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.main-body{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.main-body-half-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2vh;
+    z-index: 1;
+
+}
+
+.main-body-half{
+    background-color: white/* rgb(13, 45, 82)*/;
+    height: 75vh;
+    width: 65vh;
+    align-items: center;
+    border-radius: 10%;
+    padding-top: 5vh;
+    z-index: 1;
+
+}
+
+
+.main-body-half h3{
+    text-align: center;
+    color: black;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+
+#team h4{
+    color: black;
+    text-align: center;
+    font-size: 3.5vh;
+    margin-top: 2vh;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+#team h5{
+    color: rgb(94, 92, 92);
+    text-align: center;
+    font-size: 3.5vh;
+    font-family: sans-serif;
+
+}
+
+#team p{
+    color: rgb(94, 92, 92);
+    text-align: center;
+    font-size: 2vh;
+    margin-top: 8vh;
+    font-family: sans-serif;
+}
+
+.logo img{
+    border-radius: 20%;
+}
+
+.logo{
+    padding-left: 7vh;
+}
+
+
+
+#vision h4{
+    color: rgb(94, 92, 92);
+    text-align: center;
+    font-size: 3vh;
+    padding: 5vh;
+    margin-top: 2vh;
+    font-family: sans-serif;
+}
+
+
+.center{
+    display: block;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer{
+    padding: 3vh;
+    background-color: white;
+}
+
+#footer p{
+    color: rgb(94, 92, 92);
+    text-align: center;
+    font-size: 2.75vh;
+    font-family: sans-serif;
+}
+
